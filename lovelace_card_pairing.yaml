@@ -1,0 +1,30 @@
+type: vertical-stack
+title: 🍷 Sommelier & Accord Mets-Vins (Test Lab)
+cards:
+  - type: entities
+    entities:
+      - entity: input_text.plat_recherche_test
+        name: Entrez un plat / aliment
+        icon: mdi:food-fork-drink
+
+  - type: markdown
+    title: 🍾 Recommandations (Test)
+    content: >
+      {% set plat = state_attr('sensor.recommandation_accord_vin_test', 'plat') %}
+      {% set vins = state_attr('sensor.recommandation_accord_vin_test', 'vins_recommandes') %}
+      {% set conseil = state_attr('sensor.recommandation_accord_vin_test', 'conseil') %}
+
+      {% if plat %}
+        **Plat :** *{{ plat }}*
+
+        **Vins conseillés :**
+        {% for vin in vins %}
+          * 🍷 {{ vin }}
+        {% endfor %}
+
+        ---
+        💡 **Conseil du Sommelier :**  
+        {{ conseil }}
+      {% else %}
+        *Saisissez un plat ci-dessus pour tester la recommandation.*
+      {% endif %}

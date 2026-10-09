@@ -1,0 +1,11 @@
+get_pairing:
+  name: Obtenir un accord mets & vin (Test)
+  description: Recherche les meilleurs vins pour accompagner un plat spécifié (Intégration de test).
+  fields:
+    dish:
+      name: Plat
+      description: Le nom du plat ou de l'aliment.
+      required: true
+      example: "Canard rôti"
+      selector:
+        text:

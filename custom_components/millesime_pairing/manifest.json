@@ -1,0 +1,9 @@
+{
+  "domain": "millesime_pairing",
+  "name": "Millésime & Accords Vins (Test Lab)",
+  "codeowners": ["@test_user"],
+  "config_flow": true,
+  "documentation": "https://github.com/votre_pseudo/ha-millesime-pairing",
+  "iot_class": "calculated",
+  "version": "1.0.0-test"
+}

@@ -1,0 +1,22 @@
+{
+  "boeuf": {
+    "vins": ["Bordeaux rouge (Pauillac, Saint-Julien)", "Syrah de la Vallée du Rhône (Hermitage, Cornas)", "Cahors"],
+    "conseil": "Privilégiez un vin rouge charpenté avec du coffre et des tanins fondus."
+  },
+  "canard": {
+    "vins": ["Madiran", "Châteauneuf-du-Pape", "Pommard"],
+    "conseil": "Un rouge structuré qui équilibre le gras de la viande."
+  },
+  "poisson": {
+    "vins": ["Chablis", "Sancerre blanc", "Riesling sec"],
+    "conseil": "Un blanc sec et vif pour trancher avec la chair du poisson."
+  },
+  "poulet": {
+    "vins": ["Beaujolais (Morgon)", "Pinot Noir d'Alsace", "Meursault"],
+    "conseil": "Un rouge léger et fruité ou un blanc généreux si sauce à la crème."
+  },
+  "fromage": {
+    "vins": ["Chignin-Bergeron", "Savennières", "Jurançon sec"],
+    "conseil": "Les blancs secs et fruités s'accordent souvent mieux que les rouges."
+  }
+}
